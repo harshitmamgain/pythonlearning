@@ -1,8 +1,7 @@
-# Write code below 💖
+import random
+## from random import randint - which will also work
 
-from random import randint
-
-fact = randint(1,6)
+fact = random.randint(1,6)
 
 if fact == 1:
   print('Flamingos turn pink by eating shrimp.')
